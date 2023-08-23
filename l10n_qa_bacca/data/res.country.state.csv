@@ -1,0 +1,9 @@
+id,country_id:id,code,name
+state_qa_1,base.qa,DA,Doha
+state_qa_2,base.qa,ZA,Al Daayen
+state_qa_3,base.qa,KH,Al Khor
+state_qa_4,base.qa,RA,Al Rayyan
+state_qa_5,base.qa,SH,Al Shahaniya
+state_qa_6,base.qa,MS,Al Shamal
+state_qa_7,base.qa,WA,Al Wakrah
+state_qa_8,base.qa,US,Umm Salal

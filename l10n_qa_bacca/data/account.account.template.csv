@@ -1,0 +1,142 @@
+id,code,name,account_type,reconcile,chart_template_id:id
+l10n_account_101101,101101,Lands,asset_fixed,FALSE,l10n_qa_bacca
+l10n_account_101102,101102,Buildings,asset_fixed,FALSE,l10n_qa_bacca
+l10n_account_101103,101103,Machinery and Equipment,asset_fixed,FALSE,l10n_qa_bacca
+l10n_account_101104,101104,Vehicles,asset_fixed,FALSE,l10n_qa_bacca
+l10n_account_101105,101105,Furniture and Equipment,asset_fixed,FALSE,l10n_qa_bacca
+l10n_account_101106,101106,Electrical Appliances,asset_fixed,FALSE,l10n_qa_bacca
+l10n_account_101107,101107,Computers,asset_fixed,FALSE,l10n_qa_bacca
+l10n_account_101108,101108,Computer Software,asset_fixed,FALSE,l10n_qa_bacca
+l10n_account_101109,101109,Renovation,asset_fixed,FALSE,l10n_qa_bacca
+l10n_account_101110,101110,Tools,asset_fixed,FALSE,l10n_qa_bacca
+l10n_account_101201,101201,Buildings - AD,asset_fixed,FALSE,l10n_qa_bacca
+l10n_account_101202,101202,Machinery and Equipment - AD,asset_fixed,FALSE,l10n_qa_bacca
+l10n_account_101203,101203,Vehicles - AD,asset_fixed,FALSE,l10n_qa_bacca
+l10n_account_101204,101204,Furniture and Equipment - AD,asset_fixed,FALSE,l10n_qa_bacca
+l10n_account_101205,101205,Electrical Appliances - AD,asset_fixed,FALSE,l10n_qa_bacca
+l10n_account_101206,101206,Computers - AD,asset_fixed,FALSE,l10n_qa_bacca
+l10n_account_101207,101207,Computer Software - AD,asset_fixed,FALSE,l10n_qa_bacca
+l10n_account_101208,101208,Renovation - AD,asset_fixed,FALSE,l10n_qa_bacca
+l10n_account_101209,101209,Tools - AD,asset_fixed,FALSE,l10n_qa_bacca
+l10n_account_101902,101902,Bank Outstanding Receipts,asset_current,TRUE,l10n_qa_bacca
+l10n_account_101903,101903,Bank Outstanding Payments,asset_current,TRUE,l10n_qa_bacca
+l10n_account_101904,101904,Bank Suspense Account,asset_current,FALSE,l10n_qa_bacca
+l10n_account_102201,102201,Trade Receivable (Debtors),asset_receivable,TRUE,l10n_qa_bacca
+l10n_account_102202,102202,Trade Receivable (Debtors) (POS),asset_receivable,TRUE,l10n_qa_bacca
+l10n_account_102203,102203,Notes Receivable (Checks and Promissory Notes),asset_receivable,TRUE,l10n_qa_bacca
+l10n_account_102204,102204,Other Receivable,asset_receivable,TRUE,l10n_qa_bacca
+l10n_account_102301,102301,Stock (Merchandise and Finished Goods),asset_current,FALSE,l10n_qa_bacca
+l10n_account_102302,102302,"Stock (Raw Materials, Parts and Supplies)",asset_current,FALSE,l10n_qa_bacca
+l10n_account_102303,102303,Stock (Semi Products),asset_current,FALSE,l10n_qa_bacca
+l10n_account_102304,102304,Stock (Work In Progress) (WIP),asset_current,FALSE,l10n_qa_bacca
+l10n_account_102401,102401,Other Debtors,asset_current,FALSE,l10n_qa_bacca
+l10n_account_102402,102402,Accrued Revenue,asset_current,FALSE,l10n_qa_bacca
+l10n_account_102403,102403,Deferred Expenses,asset_current,FALSE,l10n_qa_bacca
+l10n_account_102404,102404,Prepaid Expenses,asset_prepayments,FALSE,l10n_qa_bacca
+l10n_account_102405,102405,Security Deposits Receivable,asset_current,FALSE,l10n_qa_bacca
+l10n_account_102501,102501,Employee Loans,asset_current,FALSE,l10n_qa_bacca
+l10n_account_102502,102502,Employee Custody,asset_current,FALSE,l10n_qa_bacca
+l10n_account_102503,102503,Employee Temporary Advances,asset_current,FALSE,l10n_qa_bacca
+l10n_account_102601,102601,VAT Tax Paid (Input Tax),asset_current,FALSE,l10n_qa_bacca
+l10n_account_102602,102602,Withholding Tax Receivable (Held by Customers),asset_current,FALSE,l10n_qa_bacca
+l10n_account_102603,102603,VAT Receivable,asset_current,FALSE,l10n_qa_bacca
+l10n_account_102604,102604,Tax Authority Receivable Account,asset_current,FALSE,l10n_qa_bacca
+l10n_account_201101,201101,Trade Payable (Creditors),liability_payable,TRUE,l10n_qa_bacca
+l10n_account_201102,201102,Notes Payable (Checks and Promissory Notes),liability_payable,TRUE,l10n_qa_bacca
+l10n_account_201103,201103,Other Payable,liability_payable,TRUE,l10n_qa_bacca
+l10n_account_201201,201201,Accrued Purchase Expenses,liability_current,TRUE,l10n_qa_bacca
+l10n_account_201202,201202,Accrued Salaries and Wages,liability_payable,TRUE,l10n_qa_bacca
+l10n_account_201203,201203,Accrued Employees Insurance,liability_current,FALSE,l10n_qa_bacca
+l10n_account_201204,201204,Accrued Income Tax,liability_current,FALSE,l10n_qa_bacca
+l10n_account_201205,201205,Accrued Accounting fees,liability_current,FALSE,l10n_qa_bacca
+l10n_account_201206,201206,Accrued Secretarial fees,liability_current,FALSE,l10n_qa_bacca
+l10n_account_201207,201207,Accrued Audit fees,liability_current,FALSE,l10n_qa_bacca
+l10n_account_201208,201208,Accrued Expenses (Other),liability_current,FALSE,l10n_qa_bacca
+l10n_account_201209,201209,Accrued Landed Cost,liability_current,FALSE,l10n_qa_bacca
+l10n_account_201210,201210,Deferred (Unearned) Revenue,liability_current,FALSE,l10n_qa_bacca
+l10n_account_201211,201211,Customers Advance Payments (Down Payments),liability_current,FALSE,l10n_qa_bacca
+l10n_account_201212,201212,Security Deposits Payable,liability_current,FALSE,l10n_qa_bacca
+l10n_account_201213,201213,Short Term Loans,liability_current,FALSE,l10n_qa_bacca
+l10n_account_201301,201301,VAT Tax Received (Output Tax),liability_current,FALSE,l10n_qa_bacca
+l10n_account_201302,201302,Withholding Tax Payable (Held from Vendors),liability_current,FALSE,l10n_qa_bacca
+l10n_account_201303,201303,VAT Payable,liability_current,FALSE,l10n_qa_bacca
+l10n_account_201304,201304,Tax Authority Payable Account,liability_current,FALSE,l10n_qa_bacca
+l10n_account_202001,202001,Long Term Loans,liability_non_current,FALSE,l10n_qa_bacca
+l10n_account_301001,301001,Capital (Ordinary Shares),equity,FALSE,l10n_qa_bacca
+l10n_account_301002,301002,Shareholders Current Account,equity,FALSE,l10n_qa_bacca
+l10n_account_301003,301003,Dividends,equity,FALSE,l10n_qa_bacca
+l10n_account_301004,301004,Reserve Profit/Loss,equity,FALSE,l10n_qa_bacca
+l10n_account_301005,301005,Retained Earnings,equity,FALSE,l10n_qa_bacca
+l10n_account_301006,301006,Revaluation Surplus (Reserve),equity,FALSE,l10n_qa_bacca
+l10n_account_301007,301007,Opening Balances,equity,FALSE,l10n_qa_bacca
+l10n_account_301008,301008,Current Year Earnings (Undistributed Profits/Losses),equity_unaffected,FALSE,l10n_qa_bacca
+l10n_account_401001,401001,Sales Income,income,FALSE,l10n_qa_bacca
+l10n_account_401002,401002,Services Income,income,FALSE,l10n_qa_bacca
+l10n_account_401003,401003,Sales Discounts,income,FALSE,l10n_qa_bacca
+l10n_account_401004,401004,Sales Returns and Allowances,income,FALSE,l10n_qa_bacca
+l10n_account_402001,402001,Interest on Fixed Deposits,income_other,FALSE,l10n_qa_bacca
+l10n_account_402002,402002,Foreign Exchange Gain,income_other,FALSE,l10n_qa_bacca
+l10n_account_402003,402003,Gain on Disposal of Assets,income_other,FALSE,l10n_qa_bacca
+l10n_account_402004,402004,Cash Difference Gain (Over),income_other,FALSE,l10n_qa_bacca
+l10n_account_403001,403001,Rental Income,income_other,FALSE,l10n_qa_bacca
+l10n_account_403002,403002,Other Income,income_other,FALSE,l10n_qa_bacca
+l10n_account_501001,501001,Cost of Goods Sold (COGS),expense_direct_cost,FALSE,l10n_qa_bacca
+l10n_account_501002,501002,Cost of Services Sold (COGS),expense_direct_cost,FALSE,l10n_qa_bacca
+l10n_account_501003,501003,Inventory Adjustment (Revaluation) (COGS),expense_direct_cost,FALSE,l10n_qa_bacca
+l10n_account_501004,501004,Scrapping and Wastage (COGS),expense_direct_cost,FALSE,l10n_qa_bacca
+l10n_account_501005,501005,Other (COGS),expense_direct_cost,FALSE,l10n_qa_bacca
+l10n_account_501006,501006,Purchases Discounts,expense_direct_cost,FALSE,l10n_qa_bacca
+l10n_account_501007,501007,Purchases Returns and Allowances,expense_direct_cost,FALSE,l10n_qa_bacca
+l10n_account_502001,502001,Salaries and Wages,expense,FALSE,l10n_qa_bacca
+l10n_account_502002,502002,Employee Insurance,expense,FALSE,l10n_qa_bacca
+l10n_account_502003,502003,Employee Bonus and Allowance,expense,FALSE,l10n_qa_bacca
+l10n_account_502004,502004,Employee Penalties and Deductions,expense,FALSE,l10n_qa_bacca
+l10n_account_502005,502005,Employee Medical Insurance,expense,FALSE,l10n_qa_bacca
+l10n_account_502006,502006,Employee Transportation,expense,FALSE,l10n_qa_bacca
+l10n_account_502007,502007,"Visa, Iqama, Work Permits and Gov. Fees",expense,FALSE,l10n_qa_bacca
+l10n_account_503001,503001,Travelling and Accommodation,expense,FALSE,l10n_qa_bacca
+l10n_account_503002,503002,Marketing Fees,expense,FALSE,l10n_qa_bacca
+l10n_account_503003,503003,Sales Bonus,expense,FALSE,l10n_qa_bacca
+l10n_account_503004,503004,Commissions,expense,FALSE,l10n_qa_bacca
+l10n_account_503005,503005,Insurance and Road Tax,expense,FALSE,l10n_qa_bacca
+l10n_account_504001,504001,Maintenance of Vehicles and Equipment,expense,FALSE,l10n_qa_bacca
+l10n_account_504002,504002,IT Support Services,expense,FALSE,l10n_qa_bacca
+l10n_account_504003,504003,Other Maintenance,expense,FALSE,l10n_qa_bacca
+l10n_account_505001,505001,Accounting Fees,expense,FALSE,l10n_qa_bacca
+l10n_account_505002,505002,Secretarial Fees,expense,FALSE,l10n_qa_bacca
+l10n_account_505003,505003,Audit Fees,expense,FALSE,l10n_qa_bacca
+l10n_account_505004,505004,Consultant Fees,expense,FALSE,l10n_qa_bacca
+l10n_account_505005,505005,Legal Fees and Stamps,expense,FALSE,l10n_qa_bacca
+l10n_account_506001,506001,Bank Fees and Charges,expense,FALSE,l10n_qa_bacca
+l10n_account_506002,506002,Bank Interests,expense,FALSE,l10n_qa_bacca
+l10n_account_506003,506003,Foreign Exchange Loss,expense,FALSE,l10n_qa_bacca
+l10n_account_506004,506004,Loss on Disposal of Assets,expense,FALSE,l10n_qa_bacca
+l10n_account_506005,506005,Cash Difference Loss (Short),expense,FALSE,l10n_qa_bacca
+l10n_account_506006,506006,Supplier Invoice Price Difference,expense,FALSE,l10n_qa_bacca
+l10n_account_506007,506007,Credit Card Expenses,expense,FALSE,l10n_qa_bacca
+l10n_account_506008,506008,Unrealized Foreign Exchange Gains/Losses,expense,FALSE,l10n_qa_bacca
+l10n_account_507001,507001,Income Tax,expense,FALSE,l10n_qa_bacca
+l10n_account_507002,507002,Tax Authority Expenses,expense,FALSE,l10n_qa_bacca
+l10n_account_508001,508001,Buildings - Dep. Expenses,expense_depreciation,FALSE,l10n_qa_bacca
+l10n_account_508002,508002,Machinery and Equipment - Dep. Expenses,expense_depreciation,FALSE,l10n_qa_bacca
+l10n_account_508003,508003,Vehicles - Dep. Expenses,expense_depreciation,FALSE,l10n_qa_bacca
+l10n_account_508004,508004,Furniture and Equipment - Dep. Expenses,expense_depreciation,FALSE,l10n_qa_bacca
+l10n_account_508005,508005,Electrical Appliances - Dep. Expenses,expense_depreciation,FALSE,l10n_qa_bacca
+l10n_account_508006,508006,Computers - Dep. Expenses,expense_depreciation,FALSE,l10n_qa_bacca
+l10n_account_508007,508007,Computer Software - Dep. Expenses,expense_depreciation,FALSE,l10n_qa_bacca
+l10n_account_508008,508008,Renovation - Dep. Expenses,expense_depreciation,FALSE,l10n_qa_bacca
+l10n_account_508009,508009,Tools - Dep. Expenses,expense_depreciation,FALSE,l10n_qa_bacca
+l10n_account_509001,509001,Rental Expenses,expense,FALSE,l10n_qa_bacca
+l10n_account_509002,509002,Buffet and Hospitality,expense,FALSE,l10n_qa_bacca
+l10n_account_509003,509003,Printing and Stationery,expense,FALSE,l10n_qa_bacca
+l10n_account_509004,509004,Postage and Courier,expense,FALSE,l10n_qa_bacca
+l10n_account_509005,509005,Cleaning Services,expense,FALSE,l10n_qa_bacca
+l10n_account_509006,509006,Water,expense,FALSE,l10n_qa_bacca
+l10n_account_509007,509007,Electricity,expense,FALSE,l10n_qa_bacca
+l10n_account_509008,509008,"Telephone, Fax and Internet",expense,FALSE,l10n_qa_bacca
+l10n_account_509009,509009,Petrol,expense,FALSE,l10n_qa_bacca
+l10n_account_509010,509010,Toll,expense,FALSE,l10n_qa_bacca
+l10n_account_509011,509011,Parking,expense,FALSE,l10n_qa_bacca
+l10n_account_509012,509012,Donation,expense,FALSE,l10n_qa_bacca
+l10n_account_509013,509013,Penalties,expense,FALSE,l10n_qa_bacca
+l10n_account_509014,509014,Other Expenses,expense,FALSE,l10n_qa_bacca

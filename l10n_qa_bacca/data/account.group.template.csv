@@ -1,0 +1,26 @@
+id,code_prefix_start,code_prefix_end,name,chart_template_id:id
+group_1011,1011,,"Property, Plant and Equipment",l10n_qa_bacca
+group_1012,1012,,Accumulated Depreciation,l10n_qa_bacca
+group_1019,1019,1021,Cash and Cash Equivalents,l10n_qa_bacca
+group_1022,1022,,Receivables,l10n_qa_bacca
+group_1023,1023,,Inventory,l10n_qa_bacca
+group_1024,1024,,Accruals and Current Assets,l10n_qa_bacca
+group_1025,1025,,Employee Loans and Advances,l10n_qa_bacca
+group_1026,1026,,Assets Tax Accounts,l10n_qa_bacca
+group_2011,2011,,Payables,l10n_qa_bacca
+group_2012,2012,,Accruals and Current Liabilities,l10n_qa_bacca
+group_2013,2013,,Liabilities Tax Accounts,l10n_qa_bacca
+group_2020,2020,,Non-Current Liabilities,l10n_qa_bacca
+group_3010,3010,,Equity,l10n_qa_bacca
+group_4010,4010,,Sales Income,l10n_qa_bacca
+group_4020,4020,,Financial Income,l10n_qa_bacca
+group_4030,4030,,Other Income,l10n_qa_bacca
+group_5010,5010,,Cost of Goods Sold,l10n_qa_bacca
+group_5020,5020,,HR Related Expenses,l10n_qa_bacca
+group_5030,5030,,Sales and Distribution Expenses,l10n_qa_bacca
+group_5040,5040,,Repair and Maintenance,l10n_qa_bacca
+group_5050,5050,,Professional and Consultancy Fees,l10n_qa_bacca
+group_5060,5060,,Financial Expenses,l10n_qa_bacca
+group_5070,5070,,Tax Authority Expenses,l10n_qa_bacca
+group_5080,5080,,Depreciation Expenses,l10n_qa_bacca
+group_5090,5090,,General and Administrative Expenses,l10n_qa_bacca

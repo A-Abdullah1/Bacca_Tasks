@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <record id="l10n_qa_bacca" model="account.chart.template">
+        <field name="name">Accounting Localization for BACCA - Qatar</field>
+        <field name="transfer_account_code_prefix">1019</field>
+        <field name="bank_account_code_prefix">1020</field>
+        <field name="cash_account_code_prefix">1021</field>
+        <field name="code_digits">6</field>
+        <field name="currency_id" ref="base.QAR" />
+        <field name="country_id" ref="base.qa" />
+    </record>
+</odoo>

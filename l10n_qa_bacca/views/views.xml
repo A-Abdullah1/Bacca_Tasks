@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <data>
+        <record id="view_inherit_view_account_search" model="ir.ui.view">
+            <field name="name">view.inherit.account.account.search</field>
+            <field name="model">account.account</field>
+            <field name="inherit_id" ref="account.view_account_search"/>
+            <field name="arch" type="xml">
+                <group expand="0">
+                    <filter string="Account Group" name="accountgroup" domain="" context="{'group_by':'group_id'}"/>
+                </group>
+            </field>
+        </record>
+
+        <record id="view_inherit_base_view_company_form" model="ir.ui.view">
+            <field name="name">view.inherit.res.company.form</field>
+            <field name="model">res.company</field>
+            <field name="inherit_id" ref="base.view_company_form"/>
+            <field name="arch" type="xml">
+                <field name="phone" position="before">
+                    <field name="gain_account_id"/>
+                    <field name="loss_account_id"/>
+                </field>
+            </field>
+        </record>
+    </data>
+</odoo>

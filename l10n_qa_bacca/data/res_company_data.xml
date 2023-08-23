@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+	<record model="res.company" id="base.main_company">
+		<field name="gain_account_id" ref="l10n_qa_bacca.l10n_account_402003" />
+		<field name="loss_account_id" ref="l10n_qa_bacca.l10n_account_506004" />
+	</record>
+</odoo>

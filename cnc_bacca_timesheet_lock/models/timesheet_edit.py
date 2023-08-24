@@ -32,3 +32,21 @@ class Timesheet_Project(models.Model):
         else:
 
             self.is_admin = False
+
+    def action_extend_request(self):
+        return {
+            'type': 'ir.actions.act_window',
+            'name': 'Request',
+            'res_model': 'project.approvalrequest',
+            'view_mode': 'form',
+            'view_id': self.env.ref('cnc_bacca_timesheet_lock.exceeded_task_form_view_intask').id,
+            'target': 'new',
+            'context': {
+                'default_employee_id': self.user_ids.employee_id.id,
+                'default_task_id': self.id,
+                'default_project_id': self.project_id.id,
+                'default_spent_hours': self.effective_hours,
+
+            }
+
+        }

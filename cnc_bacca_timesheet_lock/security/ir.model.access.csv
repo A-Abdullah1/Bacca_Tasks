@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+cnc_bacca_timesheet_lock.access_project_approvalrequest,access_project_approvalrequest,cnc_bacca_timesheet_lock.model_project_approvalrequest,base.group_user,1,1,1,1

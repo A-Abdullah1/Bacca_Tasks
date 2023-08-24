@@ -9,7 +9,9 @@
     'description': """ Adding cond when the task time exceeds the timesheet locks  """,
     'depends': ['project', 'hr_timesheet', 'timesheet_grid'],
     'data': [
+        'security/ir.model.access.csv',
         'views/task_view.xml',
+        'views/exceeded_tasks_view.xml',
 
     ],
     'auto_install': False,

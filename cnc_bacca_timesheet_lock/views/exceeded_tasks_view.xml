@@ -6,12 +6,12 @@
         <field name="model">project.approvalrequest</field>
         <field name="arch" type="xml">
             <form>
+                <header>
+                    <field name="approval_status" widget="statusbar"/>
+                </header>
                 <sheet>
-                    <div class="oe_title">
-                        <h1>
-                            <field name="task_id" readonly="1"/>
-                        </h1>
-                    </div>
+
+
                     <group>
                         <group>
                             <field name="employee_id"
@@ -27,10 +27,22 @@
                     </group>
                     <group>
                         <group>
-                            <field name="spent_hours"/>
+                            <field name="spent_hours" readonly="1"/>
+                            <field name="requested_hours" readonly="1"/>
                             <field name="needed_hours"/>
                             <field name="comment"/>
                         </group>
+
+                    </group>
+                    <group>
+                        <button name="action_extend_request_approved" string="Approved" type="object"
+                                class="oe_highlight"
+
+                        />
+                        <button name="action_extend_request_rejected" string="Rejected" type="object"
+                                class="oe_highlight"
+
+                        />
                     </group>
                 </sheet>
             </form>
@@ -68,7 +80,7 @@
                         <group>
                             <field name="spent_hours" options="{'no_create': True, 'no_create_edit': True}"
                                    attrs="{'readonly': 1}"/>/>
-                            <field name="needed_hours"/>
+                            <field name="requested_hours"/>
                             <field name="comment"/>
                         </group>
                     </group>
@@ -81,17 +93,27 @@
     <record id="exceeded_task_tree_view" model="ir.ui.view">
         <field name="name">exceeded.task.tree.view</field>
         <field name="model">project.approvalrequest</field>
+<!--        <field name="context">{'search_default_group_by_status': 1}</field>-->
         <field name="arch" type="xml">
             <tree string="">
                 <field name="project_id"/>
                 <field name="task_id"/>
                 <field name="employee_id"/>
+                <field name="approval_status"/>
                 <field name="needed_hours"/>
                 <field name="comment"/>
             </tree>
         </field>
     </record>
-
+    <record id="view_search_approvalrequest" model="ir.ui.view">
+        <field name="name">project.search.view</field>
+        <field name="model">project.approvalrequest</field>
+        <field name="arch" type="xml">
+            <search>
+                <filter string="Approval statue " name="group_by_status" context="{'group_by' : 'approval_status'}"/>
+            </search>
+        </field>
+    </record>
     <record id="approval_requests_action" model="ir.actions.act_window">
         <field name="name">Approval Requests</field>
         <field name="type">ir.actions.act_window</field>
@@ -99,7 +121,7 @@
         <field name="view_mode">tree,form</field>
     </record>
     <menuitem id="approval_requests_menu" name="Approval Requests" action="approval_requests_action"
-              parent="project.menu_main_pm" sequence="200"/>
+              parent="project.menu_main_pm" groups="hr_timesheet.group_timesheet_manager" sequence="200"/>
 
 
 </odoo>

@@ -6,7 +6,10 @@
         <field name="arch" type="xml">
             <xpath expr="//field[@name='tag_ids']" position="after">
                 <field name="allocated_time_exceeded"/>
+                <field name="new_allocated_time"/>
+
             </xpath>
+
         </field>
 
     </record>
@@ -19,16 +22,20 @@
                 <field name="is_admin" invisible="1"/>
 
                 <button name="action_extend_request" string="Extend" type="object"
-                        class="oe_highlight"/>
+                        class="oe_highlight"
+                        attrs="{'invisible': [('allocated_time_exceeded', '=', False)]}"
+                />
             </xpath>
-            <xpath expr="//field[@name='planned_hours']" position="attributes">
-                <attribute name="attrs">{'readonly' : [('is_admin','=',False)]}</attribute>
+            <xpath expr="//field[@name='timesheet_ids']" position="attributes">
+                <attribute name="edit">False</attribute>
+                <attribute name="create">False</attribute>
+            </xpath>
+            <xpath expr="//field[@name='planned_hours']" position="replace">
+                <field name="planned_hours" class="o_field_float_time oe_inline ms-2" widget="timesheet_uom_no_toggle"
+                       attrs="{'readonly': [('is_admin', '=', False)]}"/>
 
             </xpath>
-            <xpath expr="//div[@class='o_row']" position="attributes">
-                <attribute name="attrs">{'readonly' : [1]}</attribute>
 
-            </xpath>
 
         </field>
     </record>

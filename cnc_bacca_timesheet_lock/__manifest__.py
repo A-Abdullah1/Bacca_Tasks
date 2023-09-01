@@ -12,6 +12,7 @@
         'security/ir.model.access.csv',
         'views/task_view.xml',
         'views/exceeded_tasks_view.xml',
+        'views/timesheet_view.xml',
 
     ],
     'auto_install': False,

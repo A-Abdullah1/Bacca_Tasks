@@ -1,0 +1,58 @@
+<odoo>
+    <record id="view_timesheet_accessrights_inherit3" model="ir.ui.view">
+        <field name="name">timesheet.accessrights.inherited</field>
+        <field name="model">project.task</field>
+        <field name="inherit_id" ref="hr_timesheet.view_task_form2_inherited"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='timesheet_ids']" position="after">
+
+                <field name="compute_field" invisible="1"/>
+            </xpath>
+            <xpath expr="//field[@name='timesheet_ids']" position="attributes">
+
+                <attribute name="attrs">{'readonly' : [('compute_field','=',False)]}</attribute>
+            </xpath>
+
+
+        </field>
+    </record>
+
+
+    <record id="timesheet_view_tree_user3" model="ir.ui.view">
+        <field name="name">account.analytic.line.view.tree.with.user2</field>
+        <field name="model">account.analytic.line</field>
+        <field name="inherit_id" ref="hr_timesheet.hr_timesheet_line_tree"/>
+        <field name="arch" type="xml">
+            <xpath expr="/tree" position="inside">
+
+                <field name="is_admin" invisible="1"/>
+
+            </xpath>
+            <xpath expr="/tree" position="attributes">
+                <attribute name="edit">[('is_admin','=',False)]</attribute>
+                <attribute name="create">[('is_admin','=',False)]</attribute>
+            </xpath>
+
+        </field>
+    </record>
+
+    <record id="view_timesheet_model_accessrights_inherit3" model="ir.ui.view">
+        <field name="name">timesheet.model.accessrights.inherited</field>
+        <field name="model">account.analytic.line</field>
+        <field name="inherit_id" ref="timesheet_grid.timesheet_view_grid"/>
+        <field name="arch" type="xml">
+            <xpath expr="/grid" position="attributes">
+                <attribute name="create">false</attribute>
+                <attribute name="edit">false</attribute>
+
+            </xpath>
+
+        </field>
+    </record>
+
+
+    <record id="hr_timesheet.act_hr_timesheet_line_view_kanban" model="ir.actions.act_window.view">
+        <field name="view_id" ref=""/>
+        <field name="act_window_id" ref=""/>
+    </record>
+</odoo>
